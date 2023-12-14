@@ -12,15 +12,15 @@ const students1 = [
   { name: "Charlie", age: 21, grades: [70, 65, 80] },
 ];
 
+//Pseudo code
+//write a function
+
 function calculateAverageGrades(inputStudents) {}
 
 console.log(calculateAverageGrades(students1));
 
 //Your task is to write a JavaScript function to solve this problem.
 //Open the browser console to view the results after solving.
-
-//Pseudo code
-//write a function
 
 //--------------------------------------------------------------------------------
 
