@@ -1,0 +1,31 @@
+/* stylar för mobile first: */
+
+#posts {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/* class:en post skapade vi i diven med setAttribute */
+
+.post {
+    padding: 20px;
+    margin: 10px;
+    color: gray;
+    background-color: lightgray;
+}
+
+.post h2 {
+    font-weight: bold;
+}
+
+.post:hover {
+    background-color: white;
+}
+
+/* Responsive ajustments*/
+
+@media (min-width: 768px) {
+    #posts {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
